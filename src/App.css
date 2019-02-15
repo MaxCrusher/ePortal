@@ -1,5 +1,7 @@
 .App {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .App-logo {
@@ -17,7 +19,33 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+.lineone {
+  position: absolute;
+  z-index: -1;
+  top: 700px;
+  width: 100%;
+  background-color: rgba(176, 205, 255, 1);
+  height: 400px;
+  -webkit-clip-path: polygon(0% 100%, 88% 0%, 101% 13%, 57% 0% );
+}
+.linetwo{
+  position: absolute;
+  z-index: -1;
+  top: 1200px;
+  width: 100%;
+  background-color: rgba(176, 205, 255, 1);
+  height: 400px;
+  -webkit-clip-path: polygon(36% 12%, 101% 27%, 88% 35%, 100% 60% );
+}
+.linethree {
+  position: absolute;
+  z-index: -1;
+  top: 1200px;
+  width: 100%;
+  background-color: rgba(176, 205, 255, 1);
+  height: 400px;
+  -webkit-clip-path: polygon(36% 12%, 101% 27%, 88% 35%, 100% 60% );
+}
 .App-link {
   color: #61dafb;
 }

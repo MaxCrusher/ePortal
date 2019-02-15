@@ -1,0 +1,19 @@
+.img_media{
+  width: 64px;
+  margin-right: 15px;
+}
+main {
+  display: flex;
+  justify-content: center;
+  width: 1280px;
+  padding: 70px 90px;
+}
+main h1 {
+  text-align: center;
+}
+.news{
+  padding: 15px 0px;
+  margin:  55px 0px;
+  box-shadow: 0 0 33px rgba(200, 252, 255, 1);
+  background-color: #fff;
+}
